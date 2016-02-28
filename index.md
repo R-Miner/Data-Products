@@ -1,0 +1,63 @@
+---
+title       : Random Distribution Application
+subtitle    : Introducing sidebars, buttons and tabsets
+author      : Rose Roy
+job         : Student
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Introduction
+
+This application is to generate a histogram, summary and the data for a particular random distribution. The four distributions included are normal, uniform, lognormal and exponential.
+
+
+
+--- 
+
+## User Interface options
+
+The interactive processes that could be done are 
+
+1. Choosing a particular distribution out of 4 different distributions
+2. Option to chose the range ie: the number of random numbers to be generated for the chosen distribution
+
+--- 
+
+## Output Result
+The results are discribed in a tabset . the descriptions of tabs in the order of folding:
+
+1. Tab 1: The defalut tab which shows the histogram
+2. Tab 2: Provides the summary of the distribution
+3. Tab 3: Displays the data in a single row
+
+
+--- 
+
+## Sample result
+
+
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png)
+
+```
+##     Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+## -3.25700 -0.70050 -0.01155 -0.02921  0.69430  2.78300
+```
+
+
+
+
+---
+
+## Interactive Shiny screen
+
+![myfigure] (assets/img/result.png)
+
+
+
+
+
